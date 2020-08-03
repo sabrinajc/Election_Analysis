@@ -22,6 +22,7 @@ After running the code in Python, there are 369,711 votes in total.
 - The winner of this election is Diana DeGette
     - Winning vote count: 272,892
     - Winning percentage: 73.8%
+
 Please see Figure 1 for Results: 
 ![Election_Results](Election_Results.png)
 

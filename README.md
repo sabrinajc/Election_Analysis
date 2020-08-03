@@ -1,32 +1,30 @@
 # Election_Analysis
 
-## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+## Overview of Election Audit
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+Tom and Seth, the Colorado Board of Election employee have given the task to complete the most recent local congressional election. This project aims to arrive at the final election audit results to the election commission. We are using Python to find the followings:
+- The voter turnout for each county (Arapahoe, Denver, Jefferson)
+- The percentage of votes from each county out of the total count
+- The county with the highest turnout.
 
-## Resources
-- Data Source: election_results.csv
-- software: python 3.7.6, Visual Studio Code, 1.47.2
+## Election-Audit Results
 
-## Summary
-The analysis of the election show that:
-- There were "x" votes cast in the election.
-- The candidates were:
-    - Candidate 1
-    - Candidate 2
-    - Candidate 3
-- The candidate results were;
-    - Candidate 1 received "x%" of the vote and "y" number of votes.
-    - Candidate 2 received "x%" of the vote and "y" number of votes.
-    - Candidate 3 received "x%" of the vote and "y" number of votes.
-- The winner of the election was:
-    - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of the votes.
+After running the code in Python, there are 369,711 votes in total. 
+- County votes:
+    - Jefferson: 10.5% (38,855 votes in total)
+    - Denver: 82.8% (306,055 votes in total)
+    - Arapahoe: 6.7% (24,801 votes in total)
+- Largest county turnout to be Denver
+- Candidate votes:
+    - Charles Casper Stockham: 23.0% (85,213 votes in total)
+    - Diana DeGette: 73.8% (272,892 votes in total)
+    - Raymon Anthony Doane: 3.1% (11,606 votes in total))
+- The winner of this election is Diana DeGette
+    - Winning vote count: 272,892
+    - Winning percentage: 73.8%
+Please see Figure 1 for Results: 
+![Election_Results](Election_Results.png)
 
-## Challenge Overview
+## Election-Audit Summary
 
-## Challenge Summary
+The code in Python and this script can be used for any election in the future. First of all, we wrote a for loop script that would add a vote to the county’s vote count. Then, we calculated the percentage of the county’s vote against total vote. Most importantly, we had put a decision statement in code that would help us to determine the winner county that has the largest vote count. With the code we wrote, it can be used for any election data in the future because we had put what result we would like to see in Python. So that, Python will follow the instruction we made to help us to reach the final result. Also, the code is like an language that we put in Python, which is readable and there is no need to specify the data type. Therefore, it would work with similar election data in the future.
